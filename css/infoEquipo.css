@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#menu{
+  overflow: auto;
+  display: block;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+#icono{
+  margin: 5px auto;
+  float: left;
+  width: 60px;
+  padding-left: 6%;
+}
+
+ul{
+  margin-top: 22px;
+  padding: 0 6%;
+  float: right;
+}
+
+li{
+  display: inline;
+  font-family: 'Tajawal', sans-serif;
+  font: bold 18px;
+  padding-left: 15px;
+  color: #a4a0a0;
+}
+
+a{
+  text-decoration: none;
+  color: #a4a0a0;
+}
+
+a:hover{
+  color: #656565;
+  font: bold 20px;
+}
+
+section.bloques{
+  background-image: url(../recursos/img/topography.png);
+  padding: 30px 20%;
+
+}
+
+header{
+  padding: 100px 150px 120px 150px;
+  background-image: url(../recursos/img/equipowebancho.jpg);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:  #1a5276;
+  font: bold 30px arial, sans-serif;
+}
+
+h3{
+  font: bold 20px arial, sans-serif;
+}
+
+.infoPersonal{
+  color: #000000;
+  width: 250px;
+}
+
+.infoGral{
+  width: 450px;
+}
+
+img.fPerfil{
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+img.redes{
+  padding: 10px;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h3{
+  padding: 15px 0;
+  color:  #1a5276;
+}
+
+h5{
+  color:  #1a5276;
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  padding: 10px 0;
+  font-size: 15px;
+  font: bold;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hobbies{
+  height: 50px;
+  width: auto;;
+  border-radius: 50%;
+  padding: 10px;
+}

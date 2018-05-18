@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#menu{
+  overflow: auto;
+  display: block;
+  height: 70px;
+  background-color: #ffffff;
+}
+
+#icono{
+  margin: 5px auto;
+  float: left;
+  width: 60px;
+  padding-left: 6%;
+}
+
+#navegacion{
+  margin-top: 22px;
+  float: right;
+}
+
+#menuLista{
+  display: inline;
+  font-family: 'Tajawal', sans-serif;
+  padding-right: 20px;
+  color: #a4a0a0;
+}
+
+ul{
+  display: block;
+  font-family: 'Tajawal', sans-serif;
+  font: bold 18px;
+  padding-left: 15px;
+  color: #a4a0a0;
+}
+
+ol{
+  display: block;
+  font-family: 'Tajawal', sans-serif;
+  font: bold 18px;
+  padding-left: 15px;
+  color: #a4a0a0;
+}
+
+li{
+  color: #0F0F0F;
+  /*padding: 0 3%;*/
+}
+
+a{
+  text-decoration: none;
+  color: #a4a0a0;
+}
+
+a:hover{
+  color: #656565;
+  font: bold 20px;
+}
+
+section.bloques{
+  padding: 30px 20%;
+}
+
+header{
+  padding: 100px 150px 120px 150px;
+  background-image: url(../recursos/img/equipowebancho.jpg);
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color:  #1a5276;
+  font: bold 30px arial, sans-serif;
+}
+
+h3{
+  font: bold 20px arial, sans-serif;
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h2{
+  color:  #1a5276;
+}
+
+h3{
+  color:  #1a5276;
+  text-align: left;
+  font-family: 'Tajawal', sans-serif;
+  padding: 10px 0;
+  font-size: 20px;
+  font: bold;
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ dfn{
+   color: #101010;
+   padding: 0 2%;
+ }
+
+ iframe{
+   height: 250px;
+   width: 400px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }

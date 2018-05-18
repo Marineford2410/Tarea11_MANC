@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  font: bold 50px arial, sans-serif;
+  background-image: url(../recursos/img/Aragon1.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 215px;
+  color: #000055;
+}
+
+h1{
+  padding-top: 49px;
+}
+
+img{
+  height: 450px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+#barramenu{
+  padding: 19.5px;
+  background-color: #1a5276;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  padding: 20px 40px;
+  background-color: #1a5276;
+  color: #ffffff;
+}
+
+li:hover{
+  background-color: #ffffff;
+  color: #1a5276;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.mySlides{
+  display: none;
+}
+
+#imagenes{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.bloques{
+  background-image: url(../recursos/img/topography.png);
+  padding: 30px 15%;
+}
+
+h2{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Tajawal', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+article{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#team{
+  height: 150px;
+}
+
+img.logos{
+  height: 100px;
+  width: auto;
+  display: inline;
+}
